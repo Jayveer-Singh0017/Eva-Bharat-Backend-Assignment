@@ -2,7 +2,7 @@
 // makes decisions — every function is a single request in, parsed JSON
 // (or nothing) out, or a thrown Error carrying the API's own message.
 
-const BASE_URL = import.meta.env.VITE_API_BASE || ''
+const BASE_URL = import.meta.env.VITE_API_BASE
 
 async function request(path, options = {}) {
   const res = await fetch(`${BASE_URL}${path}`, {
