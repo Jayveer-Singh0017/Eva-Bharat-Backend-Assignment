@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# IntelliJ
+.idea
+
+# Backend
+backend/target
+backend/.mvn
+backend/*.log
+
+# Frontend
+frontend/node_modules
+frontend/dist
+
+# Local environment files
+frontend/.env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
